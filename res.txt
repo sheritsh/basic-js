@@ -8,17 +8,17 @@
     variable presence
       ✔ function dateSample exists
     base requirements
-      - should return false on wrong type
-      - should return false if no argument
-      - should validate parameter
+      ✔ should return false on wrong type
+      ✔ should return false if no argument
+      ✔ should validate parameter
     functional requirements 
-      - should handle inadequate values
+      ✔ should handle inadequate values
       passes simpliest check and determines correct tests
-        - basic examples
-        - should handle floating-point numbers
+        ✔ basic examples
+        ✔ should handle floating-point numbers
 
   Common character count
-    - should return the number of common characters between the given strings
+    ✔ should return the number of common characters between the given strings
 
   Count cats!
     variable presence
@@ -158,6 +158,6 @@
       - throws an error with message "Invalid date!" on a very tricky moment
 
 
-  20 passing (56ms)
-  63 pending
+  27 passing (59ms)
+  56 pending
 
