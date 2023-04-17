@@ -39,8 +39,8 @@ class VigenereCipheringMachine {
 
     for (let i = 0, j = 0; i < message.length; i++) {
       if (message[i].match(/[A-Z]/gi)) {
-        let shift1 = this.getSift(message[i], this.alphabet);
-        let shift2 = this.getSift(this.getChar(j, keyword), this.alphabet);
+        let shift1 = this.getShift(message[i], this.alphabet);
+        let shift2 = this.getShift(this.getChar(j, keyword), this.alphabet);
         let shift;
         if (encrypt) {
           shift = shift1 + shift2;
